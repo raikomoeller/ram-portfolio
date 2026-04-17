@@ -1,4 +1,4 @@
-# Raiko Moeller – Portfolio
+# Portfolio
 
 Next.js + Sanity Portfolio-Website für raikomoeller.de
 
