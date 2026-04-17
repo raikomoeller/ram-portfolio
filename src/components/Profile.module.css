@@ -1,0 +1,60 @@
+.section {
+  padding: 6rem 0;
+  background: var(--paper);
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.text {}
+
+.title {
+  margin-bottom: 1.5rem;
+}
+
+.para {
+  font-size: 1.02rem;
+  line-height: 1.85;
+  color: var(--mid);
+  margin-bottom: 1.2rem;
+}
+
+.para strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.group {}
+
+.groupLabel {
+  font-size: 0.688rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mid);
+  margin-bottom: 0.75rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+}
+
+@media (max-width: 920px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
